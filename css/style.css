@@ -1,0 +1,122 @@
+/*Menu*/
+
+html,body{
+    height: 100%;
+}
+
+.menu-elements{
+    display: inline;
+}
+
+.logo{
+    display: inline;
+}
+
+.logox{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top:-20px;
+}
+
+.ucookName{
+    font-family: 'Oregano', cursive;
+    font-size: 5em;
+    color:#639e36;
+    display: inline;
+}
+
+ul{
+    display: inline;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+li{
+    display: inline;
+    position: relative;
+    padding-left: 60px;
+    font-size: 3em;
+}
+
+/*Site*/
+
+.shape1{
+    position: absolute;
+    top: 100px;
+
+}
+
+.line1{
+    position: absolute;
+    right: 680px;
+    top: 130px;
+}
+
+.line2{
+    position: absolute;
+    right: 380px;
+    top: 220px;
+}
+
+.girl{
+    position: absolute;
+    width: 30%;
+    top: -20px;
+    left: 350px;
+    transform: scale(0.5) scaleX(-1);   
+}
+
+.line3{
+    position: absolute;
+    left: 180px;
+    top: 530px;
+}
+
+.boy{
+    position: absolute;
+    width: 30%;
+    bottom: -100px;
+    left: 380px;
+    transform: scale(0.6); 
+}
+
+.content{
+    position: absolute;
+    box-sizing: content-box;
+    right: 150px;
+    top: 300px;    
+}
+
+.description{
+    font-size: 2em;
+}
+
+.question{
+    font-size: 3em;
+}
+
+.message{
+    font-size: 1.4em;
+}
+
+.shape2{
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+
+.btn.btn-outline-danger.btn-lg{
+    border-radius: 20px;
+    
+}
+
+.btn.a:hover{
+    color: #fff;
+}
+
+.btn.btn-outline-danger.btn-lg:hover{
+    background-image: linear-gradient(-45deg, #bd2f2f, #f97a42);
+    color:#fff;
+}
+
